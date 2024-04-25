@@ -1,0 +1,887 @@
+{
+  "id": "b0f440f3-ccf3-43f9-965f-784d7853d58e",
+  "version": "2.0",
+  "name": "selenium",
+  "url": "https://www.fiverr.com/",
+  "tests": [{
+    "id": "ee49ba18-846f-449b-b747-35658af7df69",
+    "name": "logout",
+    "commands": [{
+      "id": "5c733cc6-c05d-4fef-8ffd-2b1fdf1bd38a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41f58f0e-73c2-468b-9e7e-83c0aa9f1737",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1079",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10b8c793-036a-4d1d-88d7-a4cc86338438",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slide:nth-child(2) .q3dhyi1j > .\\_1fqty5xk",
+      "targets": [
+        ["css=.slide:nth-child(2) .q3dhyi1j > .\\_1fqty5xk", "css:finder"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div/div[2]/div/div/div[2]/div/div/div/div[2]/div/a/div/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div[2]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Tailor Fiverr to your needs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02264003-e516-47ae-a836-8e62fa9e9731",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-popover-items-toggler .\\_nIXZEm",
+      "targets": [
+        ["css=.nav-popover-items-toggler .\\_nIXZEm", "css:finder"],
+        ["xpath=//div[@id='Header']/header/div/div/nav/ul/li[6]/div/span/button/div/figure", "xpath:idRelative"],
+        ["xpath=//figure", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3f179a5-0399-4ef5-9337-811e3a8d9919",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.js-log-out", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='Header']/header/div/div/nav/ul/li[6]/div/aside/ul/li[15]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[15]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "058d668d-e9f7-4136-ac0f-f7957070478d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-title",
+      "targets": [
+        ["css=.header-title", "css:finder"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Find the right freelance service, right away')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "94cf9574-457e-4dd7-99bb-d94ecc1983d9",
+    "name": "login",
+    "commands": [{
+      "id": "fd7d3284-ec41-4ecc-be1b-c9312ddfa159",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0628a82d-9553-4fac-9c24-64e07bad3ca6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1079",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad87047f-31a1-4df2-8982-4907ee31a822",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.display-from-sm > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//div[@id='Header']/header/div/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login?source=top_nav')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "202b5c12-73f0-468b-881a-5aedfa483745",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.display-from-sm > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//div[@id='Header']/header/div/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login?source=top_nav')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cab005b3-bda1-44fa-8508-b93f134ae7fc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.display-from-sm > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//div[@id='Header']/header/div/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login?source=top_nav')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f36c5f5-9d4c-4c78-9901-12336acbf455",
+      "comment": "",
+      "command": "click",
+      "target": "css=.zVVhJZH > p",
+      "targets": [
+        ["css=.zVVhJZH > p", "css:finder"],
+        ["xpath=//button[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Continue with email/username')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "809eb403-10c7-4e9b-9a9c-0cc8f536b74c",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=user_session[login]", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//section/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Tester0047"
+    }, {
+      "id": "77e8458e-f6cc-4708-9319-1f4f74a5bb87",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=user_session[password]", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "TestTest1"
+    }, {
+      "id": "16bce99f-bf5a-4491-acdb-45fbe9f3ea14",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rP6Aftu",
+      "targets": [
+        ["css=.rP6Aftu", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3f7f04c-5a3e-4a0e-aebb-c05b6bf01de5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rP6Aftu",
+      "targets": [
+        ["css=.rP6Aftu", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "169ddbd1-4c44-4269-8700-a2d0059ebe05",
+    "name": "like",
+    "commands": [{
+      "id": "21a0e062-f5fd-4a39-a252-1c17409b41bd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf9a908d-eb66-47fd-bbd6-a07a0065bb71",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb67b15d-d433-4caa-9586-3303f29d9674",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Km1CEUr > .QTdEgIS",
+      "targets": [
+        ["css=.Km1CEUr > .QTdEgIS", "css:finder"],
+        ["xpath=//div[@id='tabs-2:tabpanel-0']/div/div/div/div/div/div/div/div/div/div/div/a[2]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'I will design modern minimalist logo design')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d102801-f1d8-4cd3-903e-96e487d94fc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.WO3uerB path",
+      "targets": [
+        ["css=.WO3uerB path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "42dc9744-1e96-4d16-8574-e135d4b2232e",
+    "name": "search",
+    "commands": [{
+      "id": "cb444098-496a-496e-b779-9f4814e8fef8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.fiverr.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5dd4ebb-c812-4932-96dd-7484beb91932",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c376e765-5f18-463d-846e-545edc77a659",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-bar-package:nth-child(2) .long-placeholder",
+      "targets": [
+        ["css=.search-bar-package:nth-child(2) .long-placeholder", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d1ebd3c-f55f-4bce-b423-f8ef1b0125b0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-bar-package:nth-child(2) .long-placeholder",
+      "targets": [
+        ["css=.search-bar-package:nth-child(2) .long-placeholder", "css:finder"],
+        ["xpath=//input[@value='logo']", "xpath:attributes"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/input", "xpath:position"]
+      ],
+      "value": "logo"
+    }, {
+      "id": "86ab12a9-8327-4d1f-bc3a-95cb199952dd",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.search-bar-package:nth-child(2) .long-placeholder",
+      "targets": [
+        ["css=.search-bar-package:nth-child(2) .long-placeholder", "css:finder"],
+        ["xpath=//input[@value='logo']", "xpath:attributes"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "513bf9c3-0602-45ee-9dce-0125b953bfbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Km1CEUr > .QTdEgIS",
+      "targets": [
+        ["css=.Km1CEUr > .QTdEgIS", "css:finder"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div/div[5]/div[2]/div/div/div/div/div/a[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'I will create exclusive and memorable logo design with full copyright')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win88",
+      "windowTimeout": 2000
+    }, {
+      "id": "ebf18ee4-1a23-458b-967e-1636e5f33fad",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win88}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d724edb6-c537-433e-9990-d92ddf8e401c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-display-3",
+      "targets": [
+        ["css=.text-display-3", "css:finder"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div[2]/div[2]/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'I will create exclusive and memorable logo design with full copyright')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ce6e3d62-55a9-4419-8947-bb61afa6df46",
+    "name": "dislike",
+    "commands": [{
+      "id": "5f489dcc-0a19-4940-b1e0-c597637db754",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "352f8c73-ad02-47a2-8db7-7f34568ba80f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27dba01e-4e03-429e-a0ca-18cf107c6915",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slides-track:nth-child(1) > .slide:nth-child(1) .slide-item:nth-child(1) > img:nth-child(1)",
+      "targets": [
+        ["css=.slides-track:nth-child(1) > .slide:nth-child(1) .slide-item:nth-child(1) > img:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='design modern minimalist logo design']", "xpath:img"],
+        ["xpath=//div[@id='tabs-2:tabpanel-0']/div/div/div/div/div/div/div/div/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f33c4ec6-9a2c-4d45-ae37-8cec5368abb3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.slides-track:nth-child(1) > .slide:nth-child(1) .slide-item:nth-child(1) > img:nth-child(1)",
+      "targets": [
+        ["css=.slides-track:nth-child(1) > .slide:nth-child(1) .slide-item:nth-child(1) > img:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='design modern minimalist logo design']", "xpath:img"],
+        ["xpath=//div[@id='tabs-2:tabpanel-0']/div/div/div/div/div/div/div/div/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e6a4118-cfb2-43d3-b069-6c9ac6b86848",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Km1CEUr > .QTdEgIS",
+      "targets": [
+        ["css=.Km1CEUr > .QTdEgIS", "css:finder"],
+        ["xpath=//div[@id='tabs-2:tabpanel-0']/div/div/div/div/div/div/div/div/div/div/div/a[2]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'I will design modern minimalist logo design')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "300853f1-6651-4738-8641-aec69356570c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.WO3uerB path",
+      "targets": [
+        ["css=.WO3uerB path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cf6f2826-6d9a-4fca-a840-7870ddd9855f",
+    "name": "favorite_list",
+    "commands": [{
+      "id": "c10180b0-3628-4c1d-88d9-62643ef13d5f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e9644c1-0bd7-4a36-8696-18d6296040d3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca07bca4-41e0-4998-aff3-683a0be90195",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Km1CEUr > .QTdEgIS",
+      "targets": [
+        ["css=.Km1CEUr > .QTdEgIS", "css:finder"],
+        ["xpath=//div[@id='tabs-2:tabpanel-0']/div/div/div/div/div/div/div/div/div/div/div/a[2]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'I will design modern minimalist logo design')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81d382d5-f7d2-463d-b7ac-a832eb5d589e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.WO3uerB path",
+      "targets": [
+        ["css=.WO3uerB path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "50224888-ed69-46f3-903a-d0f567bdec59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.WO3uerB path",
+      "targets": [
+        ["css=.WO3uerB path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "713d86d2-bdc9-4d27-b4f0-736857d0327a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.WO3uerB path",
+      "targets": [
+        ["css=.WO3uerB path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "492468aa-0719-4f84-a6d0-cf4c6661795b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav-link",
+      "targets": [
+        ["css=.nav-link", "css:finder"],
+        ["xpath=//div[@id='Header']/header/div/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/lists/my_lists?source=header_navigation')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dec958f-1260-48b6-9d1c-bf587f8f60c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-button path",
+      "targets": [
+        ["css=.icon-button path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "30ff8ed8-c3cf-4dcd-9aed-d2e085e51454",
+      "comment": "",
+      "command": "click",
+      "target": "css=.name",
+      "targets": [
+        ["css=.name", "css:finder"],
+        ["xpath=//div[@id='perseus-app']/section/div/section[2]/section/div/div/a/div[2]/div/span/p", "xpath:idRelative"],
+        ["xpath=//span/p", "xpath:position"],
+        ["xpath=//p[contains(.,'test')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd18c54c-a218-4797-b25d-581647c736a2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=img:nth-child(1)",
+      "targets": [
+        ["css=img:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='design modern minimalist logo design']", "xpath:img"],
+        ["xpath=//div[@id='perseus-app']/section/div/section[2]/div[2]/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "baf4b816-ae11-4a3d-9b78-b6e4f6bf5969",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.active > img",
+      "targets": [
+        ["css=.active > img", "css:finder"],
+        ["xpath=//img[@alt='design modern minimalist logo design']", "xpath:img"],
+        ["xpath=//div[@id='perseus-app']/section/div/section[2]/div[2]/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "caaf7fc9-e16f-48b5-bf98-f68507dbf4d0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=I will design modern minimalist logo design",
+      "targets": [
+        ["linkText=I will design modern minimalist logo design", "linkText"],
+        ["css=h3 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'I will design modern minimalist logo design')]", "xpath:link"],
+        ["xpath=//div[@id='perseus-app']/section/div/section[2]/div[2]/div/div/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/shiv_graphix/design-2-outstanding-logo-in-24-hours?context_referrer=collection_page&ref_ctx_id=d4793fff7db84248b3948711793e436d&pckg_id=1&pos=1&seller_online=true&imp_id=d5d9d9b3-c93f-4ee6-bb41-780e21d78d97')])[2]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'I will design modern minimalist logo design')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "688d6779-c859-4353-bfdb-0f6878982043",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=I will design modern minimalist logo design",
+      "targets": [
+        ["linkText=I will design modern minimalist logo design", "linkText"],
+        ["css=h3 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'I will design modern minimalist logo design')]", "xpath:link"],
+        ["xpath=//div[@id='perseus-app']/section/div/section[2]/div[2]/div/div/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/shiv_graphix/design-2-outstanding-logo-in-24-hours?context_referrer=collection_page&ref_ctx_id=d4793fff7db84248b3948711793e436d&pckg_id=1&pos=1&seller_online=true&imp_id=d5d9d9b3-c93f-4ee6-bb41-780e21d78d97')])[2]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'I will design modern minimalist logo design')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "76ca8ca3-1c0b-4d57-89f4-015bbb602d35",
+    "name": "wrong_login",
+    "commands": [{
+      "id": "a93ca63f-4278-4f32-aca2-7c4d355bff69",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a1b332a-dc70-45bc-8577-b4bfde596b9c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96479cc8-0e88-4691-9f0c-394aa8b11f11",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.display-from-sm > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//div[@id='Header']/header/div/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login?source=top_nav')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9642c10-4477-45e1-83ce-30aec8192ae9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.zVVhJZH > p",
+      "targets": [
+        ["css=.zVVhJZH > p", "css:finder"],
+        ["xpath=//button[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Continue with email/username')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82a4628c-3285-4fd4-adb2-5d6393f40c18",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=user_session[login]", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//section/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Tester123"
+    }, {
+      "id": "baaddd7c-1075-47ec-a8f8-f4e1617cf6ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=user_session[password]", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46486a86-9335-477e-8b01-048e00a8fc1e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=user_session[password]", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "TestTest1"
+    }, {
+      "id": "c7c9a81f-cb95-48c8-a991-5c08c0a073f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rP6Aftu",
+      "targets": [
+        ["css=.rP6Aftu", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b77cd376-c169-4fc0-8cc1-d1dfdd47e2be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hxkrLXC",
+      "targets": [
+        ["css=.hxkrLXC", "css:finder"],
+        ["xpath=//section/div[3]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Wrong email or password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "403aa978-c448-4f06-954e-4b9fc4482d5a",
+    "name": "slider",
+    "commands": [{
+      "id": "4638f440-bfe2-4b8d-8b45-0fec4860a005",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22db3626-4e1e-45b6-a295-efbb3cb64cbc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29f720ed-5f36-4779-8dfd-4bded8a65fbb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slide:nth-child(1) > .iy5y630 > .\\_1fqty5xk",
+      "targets": [
+        ["css=.slide:nth-child(1) > .iy5y630 > .\\_1fqty5xk", "css:finder"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div/div[2]/div/div/div[2]/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/briefs/match/new?source=tailored_homepage&ref_ctx_id=e674fda3580d4b889b83ff40d092c5f1')]", "xpath:href"],
+        ["xpath=//div/div/div[2]/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd4957af-b5a9-438f-ace5-b36069043087",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.slide:nth-child(1) > .iy5y630 > .\\_1fqty5xk",
+      "targets": [
+        ["css=.slide:nth-child(1) > .iy5y630 > .\\_1fqty5xk", "css:finder"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div/div[2]/div/div/div[2]/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/briefs/match/new?source=tailored_homepage&ref_ctx_id=e674fda3580d4b889b83ff40d092c5f1')]", "xpath:href"],
+        ["xpath=//div/div/div[2]/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52e5bffd-8ba4-4566-b411-34883d06bb32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Km1CEUr > .QTdEgIS",
+      "targets": [
+        ["css=.Km1CEUr > .QTdEgIS", "css:finder"],
+        ["xpath=//div[@id='tabs-2:tabpanel-0']/div/div/div/div/div/div/div/div/div/div/div/a[2]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'I will create a modern minimalist logo design')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c3315ec-9ae1-4acf-bafc-a38ffe08b1c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-next",
+      "targets": [
+        ["css=.nav-next", "css:finder"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div[2]/div[2]/section/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//section/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c1e795f-769c-4e60-92a6-b6ff3e89e73c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.current img",
+      "targets": [
+        ["css=.current img", "css:finder"],
+        ["xpath=(//img[@alt='create a modern minimalist logo design'])[2]", "xpath:img"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div[2]/div[2]/section/div/div/div/div[2]/div/figure/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31accad4-9cee-4d7e-b9fe-a56c56441086",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FcchqMg",
+      "targets": [
+        ["css=.FcchqMg", "css:finder"],
+        ["xpath=//div[76]/div/section/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ad73292c-013a-4809-8303-59ddc43e7029",
+    "name": "tarifs",
+    "commands": [{
+      "id": "082e78ba-43e7-491f-927d-7f754d36ee86",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2802744f-4cb6-4516-8f3a-d48d7ec4ae26",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68b9eb23-1511-4ddb-92e1-ff207400e0df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Km1CEUr > .QTdEgIS",
+      "targets": [
+        ["css=.Km1CEUr > .QTdEgIS", "css:finder"],
+        ["xpath=//div[@id='tabs-2:tabpanel-0']/div/div/div/div/div/div/div/div/div/div/div/a[2]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'I will create a modern minimalist logo design')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b03b0672-7c67-4f9e-9a9d-403d499408d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OjAbcOU > b",
+      "targets": [
+        ["css=.OjAbcOU > b", "css:finder"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div[2]/div/div/aside/div[2]/div[2]/div/header/p/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'BASIC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87c0280e-5475-4f18-b457-c17c068fd307",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-container > .new-pro-layout:nth-child(2)",
+      "targets": [
+        ["css=.nav-container > .new-pro-layout:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div[2]/div/div/aside/div[2]/div/label[2]", "xpath:idRelative"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Standard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c33213f3-51f9-45d3-b963-b5ee0d8dc6d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.OjAbcOU > b",
+      "targets": [
+        ["css=.OjAbcOU > b", "css:finder"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div[2]/div/div/aside/div[2]/div[2]/div/header/p/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'STANDARD')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "54a031f4-5c70-4f40-a89d-6777093b3f95",
+    "name": "mainRedirect",
+    "commands": [{
+      "id": "590fc100-620c-4cfc-9ab8-b68d5c7e767e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.fiverr.com/categories",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f1cb1df-5a26-4d7b-b5dc-2a9fba5c27e8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1e1484e-07db-41a3-ab90-ee76e770dd35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-logo g:nth-child(1) > path",
+      "targets": [
+        ["css=.site-logo g:nth-child(1) > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "08d3b570-b5a3-4355-861a-c936304b5368",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iy5y631g4",
+      "targets": [
+        ["css=.iy5y631g4", "css:finder"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Welcome back, tester0047 👋')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80311a85-ea8b-44c2-91db-875f107d13cc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slide:nth-child(1) > .iy5y630 > .\\_1fqty5xk",
+      "targets": [
+        ["css=.slide:nth-child(1) > .iy5y630 > .\\_1fqty5xk", "css:finder"],
+        ["xpath=//div[@id='__ZONE__main']/div/div/div/div[2]/div/div/div[2]/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/briefs/match/new?source=tailored_homepage&ref_ctx_id=9961cae981db49919d661d04dc800f8c')]", "xpath:href"],
+        ["xpath=//div/div/div[2]/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9b855f19-cad3-43d7-bf20-5dcede85628b",
+    "name": "categoryRedirect",
+    "commands": [{
+      "id": "4c6e0092-a473-442c-9f5f-2400bac5c61d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.fiverr.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcfae584-6cd1-4a47-887c-5f0b377d6870",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d47f816-f02c-4d9a-a9b3-78cc2a8a28fe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Become a Seller",
+      "targets": [
+        ["linkText=Become a Seller", "linkText"],
+        ["css=.display-from-md > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Become a Seller')]", "xpath:link"],
+        ["xpath=//div[@id='Header']/header/div/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/start_selling?source=top_nav')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Become a Seller')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "03455d96-79ef-4e66-b693-5321a52c8c04",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ee49ba18-846f-449b-b747-35658af7df69"]
+  }],
+  "urls": ["https://www.fiverr.com/"],
+  "plugins": []
+}
